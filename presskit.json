@@ -1,0 +1,39 @@
+{
+  "game": {
+    "game_url": "https://store.steampowered.com/app/3737680/Bloodspill/",
+    "widgetreftourl": "<iframe src=\"https://store.steampowered.com/widget/3737680/\" frameborder=\"0\" width=\"100%\" height=\"190\"></iframe>",
+    "presskiturl": "assets/presskit.zip",
+    "title": "Bloodspill",
+    "trailer": "https://www.youtube.com/embed/kG44yRx6BRU",
+    "tagline": "Short Description",
+    "short_description": "Bloodspill is a fast-paced, pvp retro fps with one hit combat, featuring classic gamemodes like deathmatch, capture the flag and conquest!",
+    "genres": [
+      "FPS",
+      "Retro",
+      "Fast-Paced"
+    ],
+    "modes": [
+      "Multiplayer"
+    ],
+    "team_size": "Solo Developer",
+    "game_engine": "Unreal Engine 5.3",
+    "release_date": "Q3 2026",
+    "development_status": "In development",
+    "platforms": [
+      "Windows"
+    ]
+  },
+  "studio": {
+    "name": "thatFain",
+    "contact": {
+      "Discord": "https://discord.gg/Y3DgBBhEJd",
+      "YouTube": "https://www.youtube.com/@thatFain",
+      "Twitch": "https://www.twitch.tv/thatfain",
+      "Bluesky": "https://bsky.app/profile/thatfain.bsky.social",
+      "Instagram": "https://www.instagram.com/that_fain/"
+    }
+  },
+  "media": {
+    "cover": "assets/header.jpg"
+  }
+}

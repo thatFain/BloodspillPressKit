@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bloodspill • Press Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="wrap">
+        <a href="#" class="brand">thatFain</a>
+        <nav>
+            <a href="#hero">Summary</a>
+            <a href="#screenshots">Media</a>
+            <a href="#downloads">Downloads</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="wrap">
+        <section class="hero" id="hero">
+            <div class="text">
+                <a class="brand gameurl" target="_blank">
+                    <h1 class="gamename" id="title" style="font-size: 3rem; line-height: 1;">Bloodspill</h1>
+                </a>
+                <h2 id="tagline" style="color: var(--soft); margin-top: 0.5rem;"></h2>
+                <p id="short" style="margin-bottom: 24px;"></p>
+
+                <a id="presskit-btn-top" class="btn-primary" href="#" download>
+                    Download Presskit
+                </a>
+            </div>
+            <div class="media">
+                <a class="gameurl" target="_blank"><img id="cover" class="cover" alt="cover image"></a>
+            </div>
+        </section>
+
+        <section id="summary">
+            <div class="facts" id="facts"></div>
+
+            <div id="widgetreftourl" style="margin-bottom: 2rem;"></div>
+
+            <div id="trailer-container" style="display: none; margin-bottom: 2rem;">
+                <h2 style="color: var(--soft); margin-top: 0; margin-bottom: 1rem;">Announcement Trailer</h2>
+                <div class="video-responsive">
+                    <iframe id="trailer-iframe" src="" title="Game Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="description-content">
+                <h2>Description</h2>
+                <p>Bloodspill is a fast-paced, pvp retro fps with one hit combat, featuring classic game modes like Deathmatch, Capture the Flag and Conquest.</p>
+
+                <div class="video-block">
+                    <video autoplay muted loop playsinline width='100%'>
+                        <source src='assets/dm.webm' type='video/webm'>
+                    </video>
+                    <h3>Deathmatch</h3>
+                    <p>Kill or be killed! The first player to fulfill the body count wins.</p>
+                </div>
+
+                <div class="video-block">
+                    <video autoplay muted loop playsinline width='100%'>
+                        <source src='assets/ctf.webm' type='video/webm'>
+                    </video>
+                    <h3>Capture the Flag</h3>
+                    <p>Get that flag! Steal the flag from the enemy team and capture it at your own base to gain points and bring victory to your team.</p>
+                </div>
+
+                <div class="video-block">
+                    <video autoplay muted loop playsinline width='100%'>
+                        <source src='assets/cq.webm' type='video/webm'>
+                    </video>
+                    <h3>Conquest</h3>
+                    <p>Conquer and Defend! Hold your conquered territory and pile up points to win the round!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="screenshots">
+            <h2>Screenshots</h2>
+            <div class="grid">
+                <a href="assets/7.png" target="_blank"><img src="assets/7.png" alt="Screenshot 1"></a>
+                <a href="assets/8.png" target="_blank"><img src="assets/8.png" alt="Screenshot 2"></a>
+                <a href="assets/9.png" target="_blank"><img src="assets/9.png" alt="Screenshot 3"></a>
+                <a href="assets/10.png" target="_blank"><img src="assets/10.png" alt="Screenshot 4"></a>
+                <a href="assets/11.png" target="_blank"><img src="assets/11.png" alt="Screenshot 5"></a>
+                <a href="assets/12.png" target="_blank"><img src="assets/12.png" alt="Screenshot 6"></a>
+                <a href="assets/13.png" target="_blank"><img src="assets/13.png" alt="Screenshot 6"></a>
+            </div>
+        </section>
+
+        <section id="branding">
+            <h2>Logo & Branding</h2>
+            <div class="grid" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="brand-box">
+                    <img src="assets/1.png" alt="Logo Transparent">
+                    <p>Transparent Logo</p>
+                </div>
+                <div class="brand-box">
+                    <img src="assets/2.png" alt="Box Art">
+                    <p>Box Art</p>
+                </div>
+                <div class="brand-box">
+                    <img src="assets/3.png" alt="Logo">
+                    <p>Logo</p>
+                </div>
+                <div class="brand-box">
+                    <img src="assets/4.png" alt="Logo">
+                    <p>Logo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="downloads">
+            <h2>Downloads</h2>
+            <ul class="download-list">
+                <li><a id="presskiturl" class="btn-secondary" target="_blank" download>Download Presskit (.zip)</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul id="contacts" class="contact-list"></ul>
+        </section>
+    </main>
+
+    <footer class="wrap foot">
+        <span>&copy; 2025 thatFain</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
